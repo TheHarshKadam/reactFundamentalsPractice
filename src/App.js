@@ -1,5 +1,6 @@
 import Counter from './counter';
 import Helloworld from './helloworld';
+import Userinput from './userInput';
 import './App.css';
 import React from 'react'
 
@@ -8,6 +9,7 @@ export default function App() {
     <div>
         <Helloworld />
         <Counter />
+        <Userinput />
     </div>
   )
 }

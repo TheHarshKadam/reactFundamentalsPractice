@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-# reactFundamentalsPractice
-Just react fundamentals interview asked questions
+# React Practice
+### Just react fundamentals interview asked questions
 =======
 # Getting Started with Create React App
 

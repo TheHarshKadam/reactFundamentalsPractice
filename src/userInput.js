@@ -6,10 +6,10 @@ const UserInput = () => {
   return (
     <div>
         <h1> User Input</h1>
-        <input type="text" placeholder='Type anything' onChange={(e)=>setInput(e.target.value)}/>
+        <input type="text" placeholder='Type anything' value = {input} onChange={(e)=>setInput(e.target.value)}/>
         <p>Typed String : {input}</p>
     </div>
   )
 }
 
-export default UserInput;
+export default UserInput; 

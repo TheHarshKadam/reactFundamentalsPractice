@@ -5,6 +5,7 @@ import DisplayList from './displayList';
 import ToggleSwitch from './toggleSwitch';
 import FetchApiData from './fetchApiData';
 import Timer from './timer';
+import BgColorChange from './bgColorChange';
 import './App.css';
 import React from 'react'
 
@@ -19,6 +20,7 @@ export default function App() {
         <ToggleSwitch/>
         <FetchApiData/>
         <Timer/>
+        <BgColorChange/>
     </div>
   )
 }

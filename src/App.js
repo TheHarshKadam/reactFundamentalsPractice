@@ -4,8 +4,10 @@ import Userinput from './userInput';
 import DisplayList from './displayList';
 import ToggleSwitch from './toggleSwitch';
 import FetchApiData from './fetchApiData';
+import Timer from './timer';
 import './App.css';
 import React from 'react'
+
 
 export default function App() {
   return (
@@ -16,6 +18,7 @@ export default function App() {
         <DisplayList />
         <ToggleSwitch/>
         <FetchApiData/>
+        <Timer/>
     </div>
   )
 }

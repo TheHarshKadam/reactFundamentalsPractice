@@ -6,8 +6,10 @@ import ToggleSwitch from './toggleSwitch';
 import FetchApiData from './fetchApiData';
 import Timer from './timer';
 import BgColorChange from './bgColorChange';
+import Routers from './router';
 import './App.css';
 import React from 'react'
+
 
 
 export default function App() {
@@ -21,6 +23,7 @@ export default function App() {
         <FetchApiData/>
         <Timer/>
         <BgColorChange/>
+        <Routers/>
     </div>
   )
 }

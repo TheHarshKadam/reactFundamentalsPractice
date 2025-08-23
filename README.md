@@ -2,6 +2,8 @@
 
 ### React fundamentals and practical based interview questions asked to me in interviews
 
+#### This Repo has all the questions which were asked me in Technical Interviews in JPMC, Flipkart, Myntra, IBM, Airbnb, Paypal etc...
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

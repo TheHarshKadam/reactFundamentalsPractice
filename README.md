@@ -1,5 +1,6 @@
 # React Practice
-### Just react fundamentals interview asked questions
+
+### React fundamentals and practical based interview questions asked to me in interviews
 
 # Getting Started with Create React App
 

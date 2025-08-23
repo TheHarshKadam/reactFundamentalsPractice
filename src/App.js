@@ -22,6 +22,12 @@ import CounterUsingReducer from './19.counterUsingReducer';
 import TodoListUsingReducer from './20.todoListUsingReducer';
 import PaginationUsingReducer from './21.paginationUsingReducer';
 import UserAuthUsingUseContext from './22.userAuthUsingUseContext';
+import { AuthProvider } from './22.authContext';
+import DraggableComponentUsingReducer from './23.draggableComponentUsingReducer';
+import TransalationAppUseContext from './24.transalationAppUseContext';
+import { LocalizationProvider } from './24.localizationContext';
+import FetchMultipleApi from './25.fetchMultipleApi';
+import MultipleStatesInSingleState from './26.multipleStates';
 
 export default function App() {
   const items = ['Gulabjam', 'Barfi', 'Rasgulla', 'Aamras', 'Kajukatli', 'Motichur', 'Pedha', 'Sugar']
@@ -51,7 +57,15 @@ export default function App() {
       <CounterUsingReducer/>
       <TodoListUsingReducer/>
       <PaginationUsingReducer/>
-      <UserAuthUsingUseContext/>
+      <AuthProvider>
+        <UserAuthUsingUseContext/>
+      </AuthProvider>
+      <DraggableComponentUsingReducer/>
+      <LocalizationProvider>
+        <TransalationAppUseContext/>
+      </LocalizationProvider>
+      <FetchMultipleApi/>
+      <MultipleStatesInSingleState/>
     </div>
   )
 }

@@ -7,7 +7,7 @@ function WeatherApi() {
             navigator.geolocation.getCurrentPosition((position) => {
                 const longitude = position.coords.longitude;
                 const latitude = position.coords.latitude;
-                fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=bb147eff8079c98f68f5cbf8d0837f5d`)
+                fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=YOUR_OWN_API_KEY`)
                     .then((response) => response.json())
                     .then((data) => {                        
                         console.log(data);
